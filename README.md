@@ -1,6 +1,6 @@
 # Git-cmd
 
-Git commond for daliy work. It aims to help you connect the git command together for daily work. 
+Git command for daliy work. It aims to help you connect the git command together for daily work. 
 
 ## Contributing
 
