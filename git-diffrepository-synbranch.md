@@ -7,7 +7,7 @@ eg. When you forked a repository and you want to synchronize it with the origin 
 
   
    
-#### Commonds
+#### Commands
 
 // Take a look at the current upstreams   
 git remote -vv
