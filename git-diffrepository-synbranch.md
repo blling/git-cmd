@@ -1,8 +1,10 @@
 ### Here we want to merge a different branch from another repository.  
+  
 #### Usecase  
 
 eg. When you forked a repository and you want to synchronize it with the origin repository someday.
 
+  
 #### Commonds
 
 // Take a look at my current upstreams    
