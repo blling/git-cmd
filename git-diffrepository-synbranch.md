@@ -18,7 +18,7 @@ git remote add `forigin` git@github.com:xxx/xxx.git
 // Fetch "forigin"  
 git fetch `forigin`  
 
-// Confirm current headers and it`s related remote  
+// Confirm current branch and it`s related remote  
 git branch -avv  
 
 // Here assume we want to merge "forigin/master" branch into current local branch   
