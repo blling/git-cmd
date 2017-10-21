@@ -9,7 +9,7 @@ eg. When you forked a repository and you want to synchronize it with the origin 
    
 #### Commonds
 
-// Take a look at my current upstreams    
+// Take a look at the current upstreams    
 git remote -v  
 
 // Add another repository upstream named "forigin"   
