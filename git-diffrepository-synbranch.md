@@ -24,5 +24,5 @@ git branch -avv
 // Here assume we want to merge "forigin/master" branch into current local branch   
 git merge `forigin/master`   
 
-// Push to remote repository   
+// Push to remote repository   
 git push
