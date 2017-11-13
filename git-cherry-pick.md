@@ -24,10 +24,10 @@ git log
 // Reset to the specified commit  
 git reset --hard `commit_id`  
 
-// Push origin  
-git push origin `branch-for-reset`:`branch-for-reset`  
+// Push origin, `--force` is important  
+git push origin `branch-for-reset`:`branch-for-reset` --force   
 
-// Recover commits which you do not want to delete  
+// Recover commits which you do not want to delete, here you will resolve conflicts if exist  
 git cherry-pick `commit - 1`  
 git cherry-pick `commit - 2`  
 
