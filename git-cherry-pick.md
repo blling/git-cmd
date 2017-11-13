@@ -14,8 +14,22 @@ git clone `https://xxx/xxx/xxx.git`
 // Check all exist remote branches  
 git branch -r
 
-// Delete remote repository   
-git push origin :branch-for-delete  
+// Checkout and push a branch for reset   
+git checkout `origin/branch-for-reset` -b `branch-for-reset`  
+git push origin -u `branch-for-reset`  
 
-// If you have any other deleted remote branch locally, clean them  
-git remote prune origin
+// Take a look at log  
+git log  
+
+// Reset to the specified commit  
+git reset --hard `commit_id`  
+
+// Push origin  
+git push origin `branch-for-reset`:`branch-for-reset`  
+
+// Recover commits which you do not want to delete  
+git cherry-pick `commit - 1`  
+git cherry-pick `commit - 2`  
+
+// Push origin  
+git push origin `branch-for-reset`:`branch-for-reset`
